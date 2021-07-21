@@ -1,0 +1,10 @@
+one = int(input())
+two = int(input())
+three = one * (two % 10)
+four = one * (two % 100 // 10)
+five = one * (two // 100)
+six = one * two
+print(three)
+print(four)
+print(five)
+print(six)
